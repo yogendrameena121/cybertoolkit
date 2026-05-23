@@ -48,7 +48,7 @@ export function AdSlot({
       </p>
       <ins
         className="adsbygoogle block"
-        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" // Replace with your AdSense publisher ID
+        data-ad-client="ca-pub-6535660175745534" // Replace with your AdSense publisher ID
         data-ad-slot={slot}
         data-ad-format={format}
         data-full-width-responsive="true"
