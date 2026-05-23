@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     template: "%s | CyberToolkit",
   },
   verification: {
-    google: "replace-with-google-search-console-token",
+    google: "googled8eb57b155f5ff7b",
   },
   description:
     "Free browser-based security tools: hash generators, Base64 encoder/decoder, password strength meter, JWT decoder, IP lookup, and more. No data sent to servers. Fast, private, open.",
