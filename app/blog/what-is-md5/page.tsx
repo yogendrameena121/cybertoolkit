@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "MD5 was once the gold standard for hashing. Today it's cryptographically broken for security use. Learn why, and what to use instead.",
   keywords: ["md5 broken", "md5 vs sha256", "md5 collision", "why md5 is unsafe", "hash function security"],
-  alternates: { canonical: "https://cybertoolkit.dev/blog/what-is-md5" },
+  alternates: { canonical: "https://cybertoolkit-nu.vercel.app/blog/what-is-md5" },
 };
 
 const toc = [

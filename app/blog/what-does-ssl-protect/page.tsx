@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "HTTPS and SSL/TLS are synonymous with web security — but most people don't know what they actually protect against, or more importantly, what they don't protect.",
   keywords: ["what does ssl protect", "https security", "ssl tls explained", "is https safe", "ssl certificate explained"],
-  alternates: { canonical: "https://cybertoolkit.dev/blog/what-does-ssl-protect" },
+  alternates: { canonical: "https://cybertoolkit-nu.vercel.app/blog/what-does-ssl-protect" },
 };
 
 const toc = [

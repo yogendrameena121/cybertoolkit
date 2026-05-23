@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://cybertoolkit.dev/sitemap.xml",
+    sitemap: "https://cybertoolkit-nu.vercel.app/sitemap.xml",
   };
 }

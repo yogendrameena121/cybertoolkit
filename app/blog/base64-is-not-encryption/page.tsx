@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Base64-encoded strings look like gibberish — but they're trivially decodable. Understand the critical difference between encoding, encryption, and hashing.",
   keywords: ["base64 encryption myth", "base64 vs encryption", "is base64 secure", "base64 not safe", "encoding vs encryption"],
-  alternates: { canonical: "https://cybertoolkit.dev/blog/base64-is-not-encryption" },
+  alternates: { canonical: "https://cybertoolkit-nu.vercel.app/blog/base64-is-not-encryption" },
 };
 
 const toc = [

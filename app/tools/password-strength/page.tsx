@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "password security checker",
     "strong password test",
   ],
-  alternates: { canonical: "https://cybertoolkit.dev/tools/password-strength" },
+  alternates: { canonical: "https://cybertoolkit-nu.vercel.app/tools/password-strength" },
 };
 
 const faqs = [
@@ -49,7 +49,7 @@ export default function PasswordStrengthPage() {
       <ToolSchema
         name="Password Strength Meter"
         description="Check password strength with time-to-crack estimates and improvement suggestions."
-        url="https://cybertoolkit.dev/tools/password-strength"
+        url="https://cybertoolkit-nu.vercel.app/tools/password-strength"
         category="SecurityApplication"
       />
       <FAQSchema faqs={faqs} />

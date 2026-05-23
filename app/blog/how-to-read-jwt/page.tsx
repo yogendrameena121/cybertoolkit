@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "JSON Web Tokens are everywhere in modern authentication. Learn how to decode and understand the header, payload, signature, and claims inside any JWT.",
   keywords: ["how to read jwt", "jwt explained", "decode jwt", "jwt header payload signature", "json web token tutorial"],
-  alternates: { canonical: "https://cybertoolkit.dev/blog/how-to-read-jwt" },
+  alternates: { canonical: "https://cybertoolkit-nu.vercel.app/blog/how-to-read-jwt" },
 };
 
 const toc = [

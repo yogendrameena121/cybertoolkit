@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Generate RFC 4122 UUID v4 identifiers instantly. Bulk generation, multiple formats (standard, no dashes, uppercase, GUID). 100% browser-based.",
   keywords: ["uuid generator", "guid generator", "random uuid", "uuid v4", "generate uuid online", "unique id generator"],
-  alternates: { canonical: "https://cybertoolkit.dev/tools/uuid-generator" },
+  alternates: { canonical: "https://cybertoolkit-nu.vercel.app/tools/uuid-generator" },
 };
 
 const faqs = [
@@ -35,7 +35,7 @@ const faqs = [
 export default function UUIDGeneratorPage() {
   return (
     <>
-      <ToolSchema name="UUID / GUID Generator" description="Generate RFC 4122 UUID v4 identifiers in your browser." url="https://cybertoolkit.dev/tools/uuid-generator" category="DeveloperApplication" />
+      <ToolSchema name="UUID / GUID Generator" description="Generate RFC 4122 UUID v4 identifiers in your browser." url="https://cybertoolkit-nu.vercel.app/tools/uuid-generator" category="DeveloperApplication" />
       <FAQSchema faqs={faqs} />
       <ToolLayout
         toolName="UUID / GUID Generator"

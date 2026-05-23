@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Encode and decode URL strings and URI components online. Supports encodeURIComponent, encodeURI, and full URL encoding. Shows character-by-character diff. Free and browser-based.",
   keywords: ["url encoder", "url decoder", "urlencode online", "percent encoding", "uri encoder", "encode url", "decode url"],
-  alternates: { canonical: "https://cybertoolkit.dev/tools/url-encoder" },
+  alternates: { canonical: "https://cybertoolkit-nu.vercel.app/tools/url-encoder" },
 };
 
 const faqs = [
@@ -31,7 +31,7 @@ const faqs = [
 export default function URLEncoderPage() {
   return (
     <>
-      <ToolSchema name="URL Encoder / Decoder" description="Encode and decode URL strings and URI components online." url="https://cybertoolkit.dev/tools/url-encoder" category="DeveloperApplication" />
+      <ToolSchema name="URL Encoder / Decoder" description="Encode and decode URL strings and URI components online." url="https://cybertoolkit-nu.vercel.app/tools/url-encoder" category="DeveloperApplication" />
       <FAQSchema faqs={faqs} />
       <ToolLayout
         toolName="URL Encoder / Decoder"

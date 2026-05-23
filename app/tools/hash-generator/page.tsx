@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     title: "Free Online Hash Generator — MD5, SHA-256, SHA-512 | CyberToolkit",
     description:
       "Generate MD5, SHA-1, SHA-256, and SHA-512 hashes instantly in your browser. No data sent to servers.",
-    url: "https://cybertoolkit.dev/tools/hash-generator",
+    url: "https://cybertoolkit-nu.vercel.app/tools/hash-generator",
   },
   alternates: {
-    canonical: "https://cybertoolkit.dev/tools/hash-generator",
+    canonical: "https://cybertoolkit-nu.vercel.app/tools/hash-generator",
   },
 };
 
@@ -64,7 +64,7 @@ export default function HashGeneratorPage() {
       <ToolSchema
         name="Hash Generator"
         description="Generate MD5, SHA-1, SHA-256, and SHA-512 hashes for text or files in your browser."
-        url="https://cybertoolkit.dev/tools/hash-generator"
+        url="https://cybertoolkit-nu.vercel.app/tools/hash-generator"
         category="DeveloperApplication"
       />
       <FAQSchema faqs={faqs} />

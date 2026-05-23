@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Look up WHOIS registration data for any domain: registrar, creation date, expiry, nameservers, and registrant info. Free and instant.",
   keywords: ["whois lookup", "whois domain", "domain lookup", "domain registration info", "who owns domain", "domain expiry checker"],
-  alternates: { canonical: "https://cybertoolkit.dev/tools/whois" },
+  alternates: { canonical: "https://cybertoolkit-nu.vercel.app/tools/whois" },
 };
 
 const faqs = [
@@ -31,7 +31,7 @@ const faqs = [
 export default function WHOISPage() {
   return (
     <>
-      <ToolSchema name="WHOIS Domain Lookup" description="Query WHOIS registration data for any domain." url="https://cybertoolkit.dev/tools/whois" category="NetworkingApplication" />
+      <ToolSchema name="WHOIS Domain Lookup" description="Query WHOIS registration data for any domain." url="https://cybertoolkit-nu.vercel.app/tools/whois" category="NetworkingApplication" />
       <FAQSchema faqs={faqs} />
       <ToolLayout
         toolName="WHOIS Domain Lookup"

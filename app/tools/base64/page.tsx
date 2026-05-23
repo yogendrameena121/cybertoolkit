@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Encode and decode Base64 strings online. Handles Unicode, UTF-8, and auto-detects Base64 input. 100% browser-based. Free and private.",
   keywords: ["base64 encoder", "base64 decoder", "base64 online", "encode base64", "decode base64", "base64 to text"],
-  alternates: { canonical: "https://cybertoolkit.dev/tools/base64" },
+  alternates: { canonical: "https://cybertoolkit-nu.vercel.app/tools/base64" },
 };
 
 const faqs = [
@@ -35,7 +35,7 @@ const faqs = [
 export default function Base64Page() {
   return (
     <>
-      <ToolSchema name="Base64 Encoder / Decoder" description="Encode and decode Base64 strings with Unicode support." url="https://cybertoolkit.dev/tools/base64" category="DeveloperApplication" />
+      <ToolSchema name="Base64 Encoder / Decoder" description="Encode and decode Base64 strings with Unicode support." url="https://cybertoolkit-nu.vercel.app/tools/base64" category="DeveloperApplication" />
       <FAQSchema faqs={faqs} />
       <ToolLayout
         toolName="Base64 Encoder / Decoder"

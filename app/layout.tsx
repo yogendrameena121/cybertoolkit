@@ -47,11 +47,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "CyberToolkit" }],
   creator: "CyberToolkit",
-  metadataBase: new URL("https://cybertoolkit.dev"),
+  metadataBase: new URL("https://cybertoolkit-nu.vercel.app"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://cybertoolkit.dev",
+    url: "https://cybertoolkit-nu.vercel.app",
     siteName: "CyberToolkit",
     title: "CyberToolkit — Free Online Security & Developer Tools",
     description:

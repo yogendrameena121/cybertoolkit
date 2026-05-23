@@ -27,7 +27,7 @@ export function ToolSchema({
     provider: {
       "@type": "Organization",
       name: "CyberToolkit",
-      url: "https://cybertoolkit.dev",
+      url: "https://cybertoolkit-nu.vercel.app",
     },
   };
 

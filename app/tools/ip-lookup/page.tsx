@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Look up any IP address: country, city, ISP, ASN, timezone, and coordinates. Auto-detects your own IP. Free, fast, no API key needed.",
   keywords: ["ip lookup", "ip address lookup", "ip geolocation", "what is my ip", "ip to location", "ip asn lookup", "check my ip"],
-  alternates: { canonical: "https://cybertoolkit.dev/tools/ip-lookup" },
+  alternates: { canonical: "https://cybertoolkit-nu.vercel.app/tools/ip-lookup" },
 };
 
 const faqs = [
@@ -35,7 +35,7 @@ const faqs = [
 export default function IPLookupPage() {
   return (
     <>
-      <ToolSchema name="IP Address Lookup" description="Look up geolocation, ISP, ASN, and timezone for any IP address." url="https://cybertoolkit.dev/tools/ip-lookup" category="NetworkingApplication" />
+      <ToolSchema name="IP Address Lookup" description="Look up geolocation, ISP, ASN, and timezone for any IP address." url="https://cybertoolkit-nu.vercel.app/tools/ip-lookup" category="NetworkingApplication" />
       <FAQSchema faqs={faqs} />
       <ToolLayout
         toolName="IP Address Lookup"

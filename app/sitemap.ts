@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-const BASE_URL = "https://cybertoolkit.dev";
+const BASE_URL = "https://cybertoolkit-nu.vercel.app";
 
 const tools = [
   "/tools/hash-generator",

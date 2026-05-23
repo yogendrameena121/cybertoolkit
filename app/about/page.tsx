@@ -62,7 +62,7 @@ export default function AboutPage() {
             <strong className="text-slate-200">Advertising:</strong> We use Google AdSense for non-tracking-based ads where possible. Affiliate links are clearly disclosed.
           </p>
           <p>
-            <strong className="text-slate-200">Contact:</strong> For privacy concerns, email privacy@cybertoolkit.dev
+            <strong className="text-slate-200">Contact:</strong> For privacy concerns, email privacy@cybertoolkit-nu.vercel.app
           </p>
         </div>
       </section>

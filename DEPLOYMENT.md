@@ -33,7 +33,7 @@ Or connect your GitHub repo to Vercel for automatic deployments on push.
 ## Configuration Checklist
 
 ### 1. Domain
-- Update all `cybertoolkit.dev` references in metadata files to your actual domain
+- Update all `cybertoolkit-nu.vercel.app` references in metadata files to your actual domain
 - Key files: `app/layout.tsx`, `app/sitemap.ts`, all `app/tools/*/page.tsx` canonical URLs
 
 ### 2. Google AdSense

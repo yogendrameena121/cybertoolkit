@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Why can't you just SHA-256 a password? Learn the difference between hashing for data integrity versus hashing for password storage — and which algorithm to use.",
   keywords: ["bcrypt vs argon2", "password hashing", "sha256 password", "how to hash passwords", "argon2 bcrypt comparison"],
-  alternates: { canonical: "https://cybertoolkit.dev/blog/password-hashing-explained" },
+  alternates: { canonical: "https://cybertoolkit-nu.vercel.app/blog/password-hashing-explained" },
 };
 
 const toc = [

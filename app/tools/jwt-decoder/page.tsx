@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Decode and inspect JWT tokens in your browser. View header, payload, expiry time, and validation status. No server calls — fully client-side.",
   keywords: ["jwt decoder", "json web token decoder", "jwt inspector", "decode jwt online", "jwt header payload"],
-  alternates: { canonical: "https://cybertoolkit.dev/tools/jwt-decoder" },
+  alternates: { canonical: "https://cybertoolkit-nu.vercel.app/tools/jwt-decoder" },
 };
 
 const faqs = [
@@ -35,7 +35,7 @@ const faqs = [
 export default function JWTDecoderPage() {
   return (
     <>
-      <ToolSchema name="JWT Decoder" description="Decode and inspect JSON Web Tokens in your browser." url="https://cybertoolkit.dev/tools/jwt-decoder" category="DeveloperApplication" />
+      <ToolSchema name="JWT Decoder" description="Decode and inspect JSON Web Tokens in your browser." url="https://cybertoolkit-nu.vercel.app/tools/jwt-decoder" category="DeveloperApplication" />
       <FAQSchema faqs={faqs} />
       <ToolLayout
         toolName="JWT Decoder & Inspector"

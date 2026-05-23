@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Check the SSL/TLS certificate validity, expiry date, issuer, and chain for any domain. Free and instant. No software required.",
   keywords: ["ssl checker", "ssl certificate checker", "tls checker", "check ssl online", "ssl expiry checker", "certificate validity"],
-  alternates: { canonical: "https://cybertoolkit.dev/tools/ssl-checker" },
+  alternates: { canonical: "https://cybertoolkit-nu.vercel.app/tools/ssl-checker" },
 };
 
 const faqs = [
@@ -31,7 +31,7 @@ const faqs = [
 export default function SSLCheckerPage() {
   return (
     <>
-      <ToolSchema name="SSL Certificate Checker" description="Check SSL/TLS certificate validity, expiry, and chain for any domain." url="https://cybertoolkit.dev/tools/ssl-checker" category="NetworkingApplication" />
+      <ToolSchema name="SSL Certificate Checker" description="Check SSL/TLS certificate validity, expiry, and chain for any domain." url="https://cybertoolkit-nu.vercel.app/tools/ssl-checker" category="NetworkingApplication" />
       <FAQSchema faqs={faqs} />
       <ToolLayout
         toolName="SSL Certificate Checker"
