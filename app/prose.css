@@ -1,0 +1,106 @@
+/**
+ * Cyber-themed prose styles for blog articles.
+ * Applied via .prose-cyber class on the article wrapper.
+ */
+
+  .prose-cyber {
+    @apply text-slate-300 leading-relaxed;
+  }
+
+  .prose-cyber h2 {
+    @apply font-display text-2xl font-bold text-white mt-10 mb-4 scroll-mt-24;
+  }
+
+  .prose-cyber h3 {
+    @apply font-display text-xl font-semibold text-slate-100 mt-8 mb-3 scroll-mt-24;
+  }
+
+  .prose-cyber p {
+    @apply mb-5 leading-[1.8];
+  }
+
+  .prose-cyber a {
+    @apply text-[#00ff88] underline decoration-[#00ff88]/30 underline-offset-2 hover:decoration-[#00ff88] transition-all;
+  }
+
+  .prose-cyber strong {
+    @apply font-semibold text-slate-100;
+  }
+
+  .prose-cyber code {
+    @apply font-mono text-sm bg-[#0d2a1f] text-[#00ff88] px-1.5 py-0.5 rounded;
+  }
+
+  .prose-cyber pre {
+    @apply font-mono text-sm bg-[#020a14] border border-[#0d2a1f] rounded-xl p-5 overflow-x-auto my-6;
+  }
+
+  .prose-cyber pre code {
+    @apply bg-transparent text-[#00ff88] p-0;
+  }
+
+  .prose-cyber ul {
+    @apply my-4 space-y-2 pl-0;
+  }
+
+  .prose-cyber ul li {
+    @apply flex gap-2 text-slate-400;
+  }
+
+  .prose-cyber ul li::before {
+    content: '▸';
+    @apply text-[#00ff88] shrink-0 mt-0.5;
+  }
+
+  .prose-cyber ol {
+    @apply my-4 space-y-2;
+    list-style: none;
+    padding: 0;
+    counter-reset: item;
+  }
+
+  .prose-cyber ol li {
+    @apply flex gap-3 text-slate-400;
+    counter-increment: item;
+  }
+
+  .prose-cyber ol li::before {
+    content: counter(item);
+    @apply flex h-6 w-6 shrink-0 items-center justify-center rounded bg-[#00ff88]/10 font-mono text-xs font-bold text-[#00ff88] mt-0.5;
+  }
+
+  .prose-cyber blockquote {
+    @apply border-l-2 border-[#00ff88]/40 bg-[#00ff88]/5 pl-5 py-3 my-6 rounded-r-lg italic text-slate-400;
+  }
+
+  .prose-cyber .callout {
+    @apply rounded-xl border border-[#00d4ff]/20 bg-[#00d4ff]/5 p-5 my-6;
+  }
+
+  .prose-cyber .callout-warning {
+    @apply rounded-xl border border-yellow-500/20 bg-yellow-500/5 p-5 my-6;
+  }
+
+  .prose-cyber .callout-danger {
+    @apply rounded-xl border border-red-500/20 bg-red-500/5 p-5 my-6;
+  }
+
+  .prose-cyber hr {
+    @apply border-[#0d2a1f] my-10;
+  }
+
+  .prose-cyber table {
+    @apply w-full my-6 text-sm border-collapse;
+  }
+
+  .prose-cyber th {
+    @apply border border-[#0d2a1f] bg-[#070f1e] px-4 py-2.5 text-left font-medium text-slate-300;
+  }
+
+  .prose-cyber td {
+    @apply border border-[#0d2a1f] px-4 py-2.5 text-slate-400;
+  }
+
+  .prose-cyber tr:nth-child(even) td {
+    @apply bg-[#070f1e]/50;
+  }
