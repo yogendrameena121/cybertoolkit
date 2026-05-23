@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { JetBrains_Mono } from "next/font/google";
 import { Syne } from "next/font/google";
 import { Inter } from "next/font/google";
@@ -92,16 +93,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
-      {/* Google AdSense — replace ca-pub-XXXX with your publisher ID */}
-      {process.env.NODE_ENV === "production" && (
-        <head>
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6535660175745534"
-            crossOrigin="anonymous"
-          />
-        </head>
-      )}
+      <head>
+        {/* Google AdSense */}
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6535660175745534"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </head>
       <body
         className={`${jetbrainsMono.variable} ${syne.variable} ${inter.variable} min-h-screen bg-[#050d1a] text-slate-100 antialiased`}
       >

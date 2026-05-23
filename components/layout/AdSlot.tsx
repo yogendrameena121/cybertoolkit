@@ -27,7 +27,7 @@ export function AdSlot({
     } catch {
       // Silently fail in development
     }
-  }, []);
+  }, [slot]);
 
   // In development, render a placeholder
   if (process.env.NODE_ENV === "development") {

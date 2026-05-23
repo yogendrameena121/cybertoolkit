@@ -215,7 +215,7 @@ export default function HomePage() {
 
       {/* Ad slot */}
       <div className="mx-auto max-w-6xl px-4 pt-8 sm:px-6 lg:px-8">
-        <AdSlot slot="2233445566" />
+        <AdSlot slot="7370228280" />
       </div>
 
       {/* Featured Tools Grid */}
